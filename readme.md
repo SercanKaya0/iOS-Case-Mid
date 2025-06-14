@@ -238,9 +238,10 @@ curl -X POST https://api.dev.hrapp.com/login \
 - API örnekleri için bkz. "API Örnekleri" bölümü.
 - TabBar’da erişilebilir bir sayfa olarak gösterilmelidir.
 - Sayfa açıldığında TabBar gizlenmelidir.
-- Yukarıda verilen iki farklı servis çağrısı birleştirilerek tek bir ekranda gösterim yapılmalıdır.
-- Menü listesinde her bir ürün için “+” butonu yer almalıdır. Kullanıcı bu butona tıkladığında bir sheet açılmalı, ayrıca sepete eklendiğine dair bir toast mesajı gösterilmelidir.
-- UI tasarımı ve içerik yapısı Figma’daki örneğe uygun hazırlanmalıdır.
+- Daily Menus ve food list apisinde gelen veriler tasarımda ki gibi tek bir sayfada listelenecektir.
+- Kullanıcı, menü listesinde yer alan bir menü öğesinin yanındaki "+" butonuna tıkladığında, ekranda "Menüye tıklandı" mesajı gösteren bir toast bildirimi çıkmalıdır.
+- Kullanıcı, herhangi bir yemek öğesinin yanındaki "+" butonuna tıkladığında ise, ekranda "Yemek sepete eklendi" mesajı gösteren bir toast bildirimi çıkmalıdır.
+- Her iki toast bildirimi de kullanıcı etkileşiminden hemen sonra kısa süreli olarak gösterilmeli ve ardından otomatik olarak kaybolmalıdır.
 
 - **Nice to Have:**
   - Firebase event: cafeteria_viewed, cafeteria_refreshed
