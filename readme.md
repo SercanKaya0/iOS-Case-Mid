@@ -110,7 +110,6 @@ curl -X POST https://api.dev.hrapp.com/login \
         - Kullanıcı giriş yapmadıysa, Login ekranına yönlendirilmelidir.
     - Uygulama açıldığında kullanıcının dil dosyasını çekebilmesi için dikkat edilmesi gerekenler:
         - Uygulama yüklendiğinde eğer cihaz dili Türkçe değilse en-US, eğer Türkçe ise tr-TR olarak localizable dosyası çekilmelidir.
-
 ---
 
 ### 🛳️ Onboard
